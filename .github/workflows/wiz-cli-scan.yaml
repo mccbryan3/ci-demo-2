@@ -21,7 +21,7 @@ jobs:
       WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
       GH_USER: ${{ secrets.GH_USER }}
       GH_PASS: ${{ secrets.GH_PASS }}
-      #WIZ_ENV: ${{ secrets.WIZ_ENV }}
+      WIZ_ENV: ${{ secrets.WIZ_ENV }}
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
